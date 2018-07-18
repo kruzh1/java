@@ -1,2 +1,2 @@
-Hello world
+привет мир
 print 
