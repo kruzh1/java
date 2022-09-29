@@ -2,11 +2,11 @@ FROM alpine
 
 RUN apk add git\ 
 	&& apk add yarn \
-	&& git clone https://github.com/drucoder/docker-site.git \
-	&& cd docker-site \
+	&& git clone https://github.com/MariaLuzh/java.git \
+	&& cd java \
 	&& yarn
 
-WORKDIR ./docker-site
+WORKDIR ./java
 
 CMD yarn start
 
